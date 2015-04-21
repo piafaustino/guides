@@ -1,8 +1,8 @@
 # GitHub Flavored Development Workflow
 
-This is how we use Github to effectively collaborate to build complex projects. This guide is just a start, and it's going to evolve with our team. 
+This is how we use Github to effectively collaborate and build complex projects. 
 
-**If you disagree with anything, open an issue.** We'll debate it and think of alternatives to improve our workflow. In the meantime, stick to the guide.
+This guide is just a start, and it's meant to change as we grow and learn. **If you disagree with anything, open an issue.** In the meantime, stick to the guide. Please see the [contributing guidelines](/contributing.md) for more info. 
 
 ## Creating a new task 
 - Create an issue on GithHub
