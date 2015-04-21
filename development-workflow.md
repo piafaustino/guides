@@ -38,7 +38,7 @@ This is how we use Github to effectively collaborate to build complex projects. 
 **Should be done 2-3 times per day** (start of day, after lunch, end of day might work for you)
 - Go through all `PR:question` PRs 
 - Go through all `PR:awaiting review` PRs
-- Merge all of your `reviewed and looks good` PRs and close the related GitHub issue
+- Merge all of your `PR:looks good` PRs and close the related GitHub issue
 - Process all of the `PR:answered` PRs 
   - Check off the answered questions
   - If any questions have not been answered move from `PR:answered` to `PR:question` again
@@ -46,10 +46,6 @@ This is how we use Github to effectively collaborate to build complex projects. 
 - Process all of the `PR:needs work` labels
   - If the changes take under 15 minutes, make them right away
   - If the changes take longer, use your judgement
-
-### Regular review process
-- Go through all `PR:question` PRs during every break
-- Go through all remaining `PR:awaiting review` PRs during every break
 
 ### Reviewing an awaiting review PR
 - Read through the code and answer any questions
@@ -62,7 +58,7 @@ This is how we use Github to effectively collaborate to build complex projects. 
 ### Answering questions for a PR
 - Reference the person in a GH comment
 - Answer any related issues
-- Mark the PR as `answered`
+- Mark the PR as `PR:answered`
 - If the answer was sufficient
   - The submitter of the PR should remove the `PR:answered` label
 - If the answer wasn't enough
@@ -72,30 +68,29 @@ This is how we use Github to effectively collaborate to build complex projects. 
 - Type in a comment explaining the reason why
 - Hit 'Close and comment' when submitting the comment
 
-
 ## Github PR Tags
 These are all of the PR tags and what they are used for. 
 
-- **PR:looks good**
+- **`PR:looks good`**
 
   The PR has been reviewed and everything looks good.
 
-- **PR:needs work**
+- **`PR:needs work`**
 
   This PR needs has some required changes before merging.
 
-- **PR:awaiting review**
+- **`PR:awaiting review`**
 
   The PR needs someone to take a look at it for feedback.
 
-- **PR:question**
+- **`PR:question`**
 
   The PR has questions that needs to be answered.
   
-- **PR:Answered**
+- **`PR:Answered`**
 
   The PR had questions which are now answered. This needs to be approved by the one who asked the question.
 
-- **PR:blocked**
+- **`PR:blocked`**
 
   This PR is currently blocked. The person working on this needs something before he can continue.
