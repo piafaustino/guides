@@ -38,7 +38,7 @@ This guide is just a start, and it's meant to change as we grow and learn. **If 
 - Before merging, you PR must meet two requirements:
  - Your branch passes the CircleCI build
  - You have tested your code locally, and you are confident that it works without issue
- - *Highly reccomended*: Have another team member code review your PR and approve it by leaving a comment
+ - *Highly recommended*: Have another team member code review your PR and approve it by leaving a comment
 - Click on the 'Merge pull request' bottom on your pull request page
 - If there are merge conflicts, you'll need to rebase your branch and push it back up before you can merge it
 - PRs should only be merged using GitHub
