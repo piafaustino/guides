@@ -4,4 +4,4 @@ This guides are not permanent. They should evolve as our team grows and learns. 
 
 ## Getting Feedback
 
-Since these are our guides, we want everyone at SVI to see them. We're spread accross different timezones, so we leave all PRs open for at least a week give everyone a chance to give feedback.
+Since these are our guides, we want everyone at SVI to see them. We're spread accross different timezones, so we leave all PRs open for at least two days and give everyone a chance to give feedback.
