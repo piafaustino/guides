@@ -18,7 +18,7 @@ This guide is just a start, and it's meant to change as we grow and learn. **If 
 - The issue should be reassigned appropriately once it has been sufficiently clarified
 
 ## You begin work on a new GitHub issue
-- Mark the current Github issue as "in progress"
+- Mark the current Github issue as `in progress`
 - Create a new feature branch in the following format: `git checkout -b your-github-username/feature-name`
 - Make the smallest change possible to get started with the feature and commit
 - Create a pull request (*you can use [Hub](https://github.com/github/hub#git-pull-request) to do this from your terminal*!) or push up a branch to Github and manually open a pull request.
@@ -38,7 +38,7 @@ This guide is just a start, and it's meant to change as we grow and learn. **If 
 - Before merging, you PR must meet two requirements:
  - Your branch passes the CircleCI build
  - You have tested your code locally, and you are confident that it works without issue
- - HIGHLY RECOMMENDED: Have another team member approve the merge by commenting on the code
+ - *Highly recommended*: Have another team member code review your PR and approve it by leaving a comment
 - Click on the 'Merge pull request' bottom on your pull request page
 - If there are merge conflicts, you'll need to rebase your branch and push it back up before you can merge it
 - PRs should only be merged using GitHub
