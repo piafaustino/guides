@@ -1,30 +1,41 @@
 # SVI's Project Management Workflow
 
-This is how we interface with clients, run sprints, and use GitHub to track the progress
+This is how we interface with clients, run sprints, and track the progress
 of our projects.
 
 This guide is just a start, and it's meant to change as we grow and learn. **If you disagree with anything, open an issue.** In the meantime, stick to the guide. Please see the [contributing guidelines](/contributing.md) for more info.
 
 ## Sprint Timeline
 
+### Pre-Sprint
+- The PM of the project should have organized:
+ - A long term list of target components, issues, and dates with the client
+ - A short term list of target components and issues with the client to aim to be completed at the end of the sprint
+- The PM is responsible for making sure that the short term and long term goals are driven by the feasibility assessed by engineering and balance the expecations of the client appropriately
+
 ### Day 0: First day of sprint
-- All members of the engineering team get together with the PM
-- We look at the list of issues, and assign 2 weeks worth of work
-- The PM should add all of the issues that need to be addressed during the sprint to a sprint milestone.
-- We send an email update to the client with finalized sprint details
+- All members of the engineering team get together on Skype facilitated by the PM
+- PM and tech lead facilitate a the list of issues and assignment over the two weeks among engineering
+- The PM should add all of the issues that need to be addressed during the sprint to a sprint milestone
+- **Deliverable:** Email update to the client with finalized sprint details
 
 ### Day 7: Mid-sprint checkin
- - All members of the engineering team get together with the PM
- - Everybody answers:
-  - What are you blocked on?
-  - Are you on track to finish everything?
-- The sprint should be recalibrate depending on how things are going. If we're ahead, we can add some issues. If we ran into things, we might need to get rid of some issues.
-- We send an email update to the client with what we accomplished, what issues we ran into, and what we hope to accomplish by the end of the sprint.
+- All members of the engineering team get together on Skype facilitated by the PM
+- Everybody answers:
+ - What are you blocked on?
+ - Are you on track to finish everything?
+ - What do we expect to be able to accomplish in the next sprint?
+- The sprint should be recalibrate depending on how things are going. If we're ahead, we can add some issues. If we are behind, we assess why, and cut from the sprint or deprioritize appropriately
+- **Deliverable:** Email update to the client with updated sprint details:
+ - What we have accomplished
+ - What additional issues have arisen
+ - Estimates of components that will be completed by the endo of the sprint
 
 ### Day 13: Last day of sprint
-- We do a quick final checkup. We only need to meet together if things don't look good. If things look good, we can simply discuss the sprint status in Slack.
-- Meet with the client to:
- - Discuss with the client how the sprint went
+- We do a quick final checkup facilitated by the PM.
+ - We only need to meet together if things don't look good. If things look good, we can simply discuss the sprint status in Slack.
+- We meet with the client to:
+ - Review the previous sprint
  - Prioritize, update and clarify user stories for the next sprint
 
 ## Creating issues
@@ -37,9 +48,9 @@ Add a label for the type of the issue.
 
 #### `type: bug`
 - Answer the following questions in the issue description:
+ - What are the steps to reproduce the bug?
  - What is the expected behavior?
  - What is the actual behavior?
- - What are the steps to reproduce the bug?
 - For UI bugs, make sure to include a screenshot
 - Include a stack trace if one is available
 
