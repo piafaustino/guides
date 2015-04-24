@@ -1,6 +1,6 @@
 # SVI's "GitHub Flavored" Development Workflow
 
-This is how we use Git and Github to effectively collaborate and build complex projects.
+This is how we use Git and GitHub to effectively collaborate and build complex projects.
 
 This guide is just a start, and it's meant to change as we grow and learn. **If you disagree with anything, open an issue.** In the meantime, stick to the guide. Please see the [contributing guidelines](/contributing.md) for more info.
 
@@ -18,12 +18,12 @@ This guide is just a start, and it's meant to change as we grow and learn. **If 
 - The issue should be reassigned appropriately once it has been sufficiently clarified
 
 ## You begin work on a new GitHub issue
-- Mark the current Github issue as `in progress`
+- Mark the current GitHub issue as `in progress`
 - Create a new feature branch in the following format: `git checkout -b your-github-username/feature-name`
 - Make the smallest change possible to get started with the feature and commit
-- Create a pull request (*you can use [Hub](https://github.com/github/hub#git-pull-request) to do this from your terminal*!) or push up a branch to Github and manually open a pull request.
+- Create a pull request (*you can use [Hub](https://github.com/github/hub#git-pull-request) to do this from your terminal*!) or push up a branch to GitHub and manually open a pull request.
 - Opening a pull request helps let other people know what you are working on and comment
-- Regularly push your updates to Github as your work to back them up and update the pull request
+- Regularly push your updates to GitHub as your work to back them up and update the pull request
 - Regularly rebase your branch on the main branch to keep it up to date with new changes
 - Once the feature is complete and you can merge the PR (see below)
 
