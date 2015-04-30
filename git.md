@@ -49,6 +49,8 @@ hub will open a text editor to let you set the PR title and description right fr
 
 ```
 $ git rebase origin/master
+```
+
 ## Hub
 
 hub is a command line tool that wraps `git` in order to extend it with extra features and commands that make working with GitHub easier.
