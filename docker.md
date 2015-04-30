@@ -12,7 +12,7 @@ The Docker Engine is the executable you download and install when setting up Doc
 
 ### Server
 
-You run the Docker Engine in daemon (server) mode using the `-d` arguments:
+You run the Docker Engine in daemon (server) mode using the `-d` argument:
 
 ```
 $ docker -d
@@ -30,6 +30,8 @@ You send commands to the Docker daemon using the same executable. For example, t
 
 A Docker image is a "saved state" of an environment. An image is built using instructions from a `Dockerfile` and other arbitrary files you want to put in it. Images are stored and queryable from Docker registries. The Docker Hub is an example of a production installation of a registry. After building images you push them to a registry. You pull images from the registry to make them available inside the current machine.
 
+TODO: Write about building images
+
 ### Dockerfile
 
 The Dockerfile is a plaintext file containing instructions on how to build your Docker images. Here's an example:
@@ -40,7 +42,7 @@ COPY . /usr/src/app
 CMD ["python", "app.py"]
 ```
 
-The first word in a line is your instructions followed by the arguments of the instruction.
+The first word in a line is your instructions followed by the argument of the instruction.
 
 #### `FROM <image_name>`
 
@@ -59,25 +61,25 @@ Images themselves don't run your applications. You need to create containers whe
 To create containers, run:
 
 ```
-docker create image_name
+$ docker create image_name
 ```
 
 This will output a container ID which you can use to reference the container when give commands to it. You can also give your own name for the container:
 
 ```
-docker create --name some_name image_name
+$ docker create --name some_name image_name
 ```
 
 Start containers using the "start" command:
 
 ```
-docker start some_name
+$ docker start some_name
 ```
 
 You can combile these two steps using the "run" command:
 
 ```
-docker run --name some_name image_name
+$ docker run --name some_name image_name
 ```
 
 TODO: More container commands
