@@ -19,14 +19,14 @@ Head over to the [Sourced Candidates](https://docs.google.com/a/benigeri.com/spr
 * First Name
 * Last Name 
 * Email
-* Contacted
+* Merged
 * In Pipeline
 
-The `In Pipeline` column is empty by default, and set to `TRUE` once a Trello card has been created. 
+The `In Pipeline` column is empty by default and set to `TRUE` once a Trello card is created. 
 
-The `Merged` column is empty by default, and set to `TRUE` once the candidate has received a mail merged email from us. 
+The `Merged` column is empty by default and set to `TRUE` once we send the candidate a mail merged email. 
 
-The `Profile URL` will depend on how the candidate was sourced. It could be a LinkedIn, GitHub, StackOverflow profile, a personal website, etc... 
+The `Profile URL` will depend on how the candidate is sourced. It could be a LinkedIn, GitHub, StackOverflow profile, a personal website, etc... 
 
 ## Pipeline
 
@@ -38,14 +38,14 @@ Candidates that have been sourced outside of a batch. For example, it could have
 
 ### New Recruits List
 
-Each candidate that engages in a recruiting conversation with us should be added to this list. The best way to [create a new card by emailing Trello](http://help.trello.com/article/809-creating-cards-by-email).
+Any candidate that engages in a recruiting conversation with us is added to this list. The best way to [create a new card by emailing Trello](http://help.trello.com/article/809-creating-cards-by-email).
 
 To move to the next stage, each card should be cleaned up: 
 * Keep key points from the email thread, but delete the rest
 * Add the candidate's profile (usually obtained during sourcing) as an attachment
 * Add the `Needs Response` label
 * Add a label for the candidate's position if it's clear
-* In the `Sourced Candidates` spreadsheet, note that the candidate has been added to the Trello pipeline
+* In the `Sourced Candidates` spreadsheet, note that the candidate is in the Trello pipeline
 
 ### Inbox
 
