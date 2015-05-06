@@ -19,12 +19,12 @@ This guide is just a start, and it's meant to change as we grow and learn. **If 
 
 ## You begin work on a new GitHub issue
 - Mark the current GitHub issue as `in progress`
-- Create a new feature branch in the following format: `git checkout -b your-github-username/feature-name`
+- [Create a new feature branch](https://github.com/SiliconValleyInsight/guides/blob/master/git.md#creating-a-feature-branch) in the following format: `git checkout -b your-github-username/feature-name`
 - Make the smallest change possible to get started with the feature and commit
-- Create a pull request (*you can use [Hub](https://github.com/github/hub#git-pull-request) to do this from your terminal*!) or push up a branch to GitHub and manually open a pull request.
+- Create a pull request (*you can use [Hub](https://github.com/github/hub#git-pull-request) to do this from your terminal*!) or push up a branch to GitHub and manually [open a pull request](https://github.com/SiliconValleyInsight/guides/blob/master/git.md#opening-a-pr).
 - Opening a pull request helps let other people know what you are working on and comment
 - Regularly push your updates to GitHub as your work to back them up and update the pull request
-- Regularly rebase your branch on the main branch to keep it up to date with new changes
+- Regularly [rebase](https://github.com/SiliconValleyInsight/guides/blob/master/git.md#rebasing) your branch on the main branch to keep it up to date with new changes
 - Once the feature is complete and you can merge the PR (see below)
 
 ## Code reviews
