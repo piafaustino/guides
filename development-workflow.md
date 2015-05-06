@@ -11,6 +11,7 @@ This guide is just a start, and it's meant to change as we grow and learn. **If 
 
 ## You get assigned a new issue
 - Make sure the task is clear enough. Run through the description and see if there are missing details.
+- If the issue is not under your domain of work or better tackled by someone else, reroute the issue to that person or the tech lead / pm who can route it to the right person
 
 ## An issue you were assigned isn’t clear enough
 - Assign the issue to someone who can clarify the task (usually the tech lead or the PM)
