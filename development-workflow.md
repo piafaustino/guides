@@ -42,7 +42,7 @@ This guide is just a start, and it's meant to change as we grow and learn. **If 
 - Click on the 'Merge pull request' bottom on your pull request page
 - If there are merge conflicts, you'll need to rebase your branch and push it back up before you can merge it
 - PRs should only be merged using GitHub
-- Mark the issue as "resolved" tag the git commit and assign to the PM to verify and close
+- Mark the issue as `resolved` tag the git commit and assign to the PM to verify and close
 
 ## You have a PR that will not be merged for some reason
 - Type in a comment explaining the reason why
