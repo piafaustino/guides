@@ -36,7 +36,7 @@ This guide is just a start, and it's meant to change as we grow and learn. **If 
 - You can ask for a code review in Slack or by @mentioning another team member on the PR
 
 ## Merging your PR
-- Before merging, you PR must meet two requirements:
+- Before merging, your PR must meet two requirements:
  - Your branch passes the CircleCI build
  - You have tested your code locally, and you are confident that it works without issue
  - *Highly recommended*: Have another team member code review your PR and approve it by leaving a comment
