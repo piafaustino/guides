@@ -62,6 +62,14 @@ Add a label for the type of the issue.
 #### `type: other`
 - Use the other label for UI improvements, performance improvements, refactoring, security improvements, or anything else.
 - We can always add new types if `type: other` becomes overused.
+- 
+#### 'type: User Stories'
+
+#### 'type: Unreproducible Bug'
+
+#### 'type: Design'
+
+#### 'type: resolved'
 
 #### Add a priority label
 - `priority: HIGH`: Critical, needs to be addressed immediately.
